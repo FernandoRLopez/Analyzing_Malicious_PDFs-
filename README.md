@@ -6,8 +6,17 @@ Ideal for security professionals, the guide builds foundational skills in PDF ma
 
 ## Commands
 
-### Pdfid. 
+### PDFid. 
 ````
 pdfid.py "location of badpdf.pdf file"
 ``````
 
+### PDF-Parser
+**/OpenAction**
+``````
+pdf-parser.py --search openaction "location of badpdf.pdf file"
+``````
+**/JavaScript**
+``````
+pdf-parser.py --search javascript "location of badpdf.pdf file"
+``````
