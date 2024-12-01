@@ -14,9 +14,28 @@ pdfid.py "location of badpdf.pdf file"
 ### PDF-Parser
 **/OpenAction**
 ``````
-pdf-parser.py --search openaction "location of badpdf.pdf file"
+pdf-parser.py --search openaction "location of file"
 ``````
 **/JavaScript**
 ``````
-pdf-parser.py --search javascript "location of badpdf.pdf file"
+pdf-parser.py --search javascript "location of file"
 ``````
+
+**/Objects**
+``````
+pdf-parser.py --object 10 "location of file"
+``````
+
+``````
+pdf-parser.py --object 13 -f -w "location of file"
+``````
+
+``````
+pdf-parser.py --object 13 -f -w -d obj13 "location of file"
+``````
+
+### Pee-pdf
+``````
+peepdf -i "location of file"
+``````
+
