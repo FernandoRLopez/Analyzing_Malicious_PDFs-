@@ -8,7 +8,7 @@ Ideal for security professionals, the guide builds foundational skills in PDF ma
 
 ### PDFid. 
 ````
-pdfid.py "location of badpdf.pdf file"
+pdfid.py "location of file"
 ``````
 
 ### PDF-Parser
